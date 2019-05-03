@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<!-- MODIFIED FROM https://getbootstrap.com/docs/4.0/examples/album/ -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>AOTW</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="../css/album.css" rel="stylesheet">
+    <link href="../css/final.css">
+    <script src="..//_js/finalProject.js"></script>
+</head>
+
+<body>
+
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Album of the Week</h1>
+                <p class="lead text-muted">Weekly album reviews by Byron Hansen</p>
+                <p>
+                    <a target="_blank" href="lowEndTheory.html" class="btn btn-outline-secondary my-2">Latest Review</a>
+
+                    <script>
+
+                        /*
+                        Random link button- By JavaScript Kit (http://javascriptkit.com)
+                        Over 300+ free scripts!
+                        This credit MUST stay intact for use
+                        */
+
+                        //specify random links below. You can have as many as you want
+                        var randomlinks = new Array()
+
+                        randomlinks[0] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/lowEndTheory.html"
+                        randomlinks[1] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/dieLit.html"
+                        randomlinks[2] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/graduation.html"
+                        randomlinks[3] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/Stratosphere.html"
+
+                        function randomlink() {
+                            window.location = randomlinks[Math.floor(Math.random() * randomlinks.length)]
+                        }
+                        //-->
+                    </script>
+                   <a target="_blank" href="javascript:randomlink()" class="btn btn-outline-secondary my-2">Random Review</a>
+
+</body>
+</p>
+</div>
+</section>
+
+<!-- The reviews. Code modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery -->
+
+<style>
+    div.gallery {
+        border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+</head>
+
+<body>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="lowEndTheory.html">
+                <img src="..//_images/finalImages/tibecalledquestlowendtheory.jpg" alt="Low End Theory" width="500"
+                    height="500">
+            </a>
+            <div class="desc">A Tribe Called Quest - Low End Theory</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="dieLit.html">
+                <img src="..//_images/finalImages/die-lit-playboi-carti-hi-res-cover.jpg" alt="Die Lit" width="500"
+                    height="500">
+            </a>
+            <div class="desc">Playboi Carti - Die Lit</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="graduation.html">
+                <img src="../_images/finalImages/graduationkanye.jpg" alt="Graduation" width="500" height="500">
+            </a>
+            <div class="desc">Kanye West - Graduation</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Stratosphere.html">
+                <img src="../_images/finalImages/dusterStratosphere.jpg" alt="Mountains" width="500" height="500">
+            </a>
+            <div class="desc">Duster - Stratosphere</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>   
+</body>
+
+</html>
