@@ -1,7 +1,8 @@
+/* album cover styling, keepin it centered */
 .albumcover {
     margin: auto;
 }
-
+/* rating styling */
 .Rating {
     border-radius: 50%;
     margin: auto;
@@ -10,6 +11,7 @@
     height: 300px;
     background: rgba(255, 255, 0, 0.329);
     border: 3px solid rgb(222, 224, 199);
+    /* animation of rating, spins back and forth at 1 degree */
     animation: spin 1s linear infinite;
 }
   @keyframes spin{
@@ -20,8 +22,50 @@
   /* code HEAVILY modified from W3 schools on spinning css */
   
 
-
+/* each individual album rating */
 .LowEndTheory {
+    text-align: center;
+    vertical-align: center;
+    line-height: 300px; 
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:150px;
+  }
+
+  .DieLit {
+    text-align: center;
+    vertical-align: center;
+    line-height: 300px; 
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:150px;
+  }
+
+  .Graduation {
+    text-align: center;
+    vertical-align: center;
+    line-height: 300px; 
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:150px;
+  }
+
+  .Stratosphere {
     text-align: center;
     vertical-align: center;
     line-height: 300px; 
