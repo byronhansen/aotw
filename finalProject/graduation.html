@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!-- MODIFIED FROM https://getbootstrap.com/docs/4.0/examples/album/ -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,11 +45,11 @@
         <!-- title and header -->
         <section class="jumbotron text-center">
             <div class="container">
-                    <a target="_blank" href="index.html" style=" color: inherit;
+                <a href="index.html" style=" color: inherit;
                     text-decoration: inherit;" class="jumbotron-heading">Album of the Week</a>
-                    <p class="lead text-muted">Weekly album reviews by Byron Hansen</p>
+                <p class="lead text-muted">Weekly album reviews by Byron Hansen</p>
                 <p>
-                    <a target="_blank" href="lowEndTheory.html" class="btn btn-outline-secondary my-2">Latest Review</a>
+                    <a href="lowEndTheory.html" class="btn btn-outline-secondary my-2">Latest Review</a>
 
                     <script>
 
@@ -59,17 +60,17 @@
                         //random link generator
                         var randomlinks = new Array()
 
-                        randomlinks[0] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/lowEndTheory.html"
-                        randomlinks[1] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/dieLit.html"
-                        randomlinks[2] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/graduation.html"
-                        randomlinks[3] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/Stratosphere.html"
+                        randomlinks[0] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/lowEndTheory.html"
+                        randomlinks[1] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/dieLit.html"
+                        randomlinks[2] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/graduation.html"
+                        randomlinks[3] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/Stratosphere.html"
 
                         function randomlink() {
                             window.location = randomlinks[Math.floor(Math.random() * randomlinks.length)]
                         }
                         //-->
                     </script>
-                   <a target="_blank" href="javascript:randomlink()" class="btn btn-outline-secondary my-2">Random Review</a>
+                    <a href="javascript:randomlink()" class="btn btn-outline-secondary my-2">Random Review</a>
 
 </body>
 </p>
@@ -77,15 +78,23 @@
 </section>
 
 <!-- The reviews. Code modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery -->
-<body>
-<h1 style="text-align:center">Kanye West - Graduation</h1>
-<div class="Rating">
-<div class="Graduation">
- <p class="serif"> 8.8 </p>
-</div>
-</div>
 
-   
+<body>
+    <h1 style="text-align:center">Kanye West - Graduation</h1>
+    <div class="Rating">
+        <div class="Graduation">
+            <p class="serif"> 8.8 </p>
+        </div>
+    </div>
+    <div class="article">
+        <!-- easter egg because i had to skip a line to get the right spacing lol -->
+        <h style="color:white;">easter egg!</h>
+        <!-- the review -->
+        <p> After touring with U2 in 2005 and 2006, Kanye got his first taste of the arena and made it his goal to make
+            'stadium music.' Gradution was that album. With perfect highs, booming lows, and steller stereo vocals,
+            Graduation is meant to blasted on the biggest speakers you own. A must listen. </p>
+    </div>
+
 </body>
 
 </html>

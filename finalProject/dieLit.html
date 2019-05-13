@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!-- MODIFIED FROM https://getbootstrap.com/docs/4.0/examples/album/ -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,11 +45,12 @@
         <!-- title and header -->
         <section class="jumbotron text-center">
             <div class="container">
-                    <a target="_blank" href="index.html" style=" color: inherit;
+                <a href="index.html" style=" color: inherit;
                     text-decoration: inherit;" class="jumbotron-heading">Album of the Week</a>
-                    <p class="lead text-muted">Weekly album reviews by Byron Hansen</p>
+                <p class="lead text-muted">Weekly album reviews by Byron Hansen</p>
                 <p>
-                    <a target="_blank" href="lowEndTheory.html" class="btn btn-outline-secondary my-2">Latest Review</a>
+                    <!-- latest review button -->
+                    <a href="lowEndTheory.html" class="btn btn-outline-secondary my-2">Latest Review</a>
 
                     <script>
 
@@ -59,33 +61,44 @@
                         //random link generator
                         var randomlinks = new Array()
 
-                        randomlinks[0] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/lowEndTheory.html"
-                        randomlinks[1] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/dieLit.html"
-                        randomlinks[2] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/graduation.html"
-                        randomlinks[3] = "http://cs.bcp.org/cozort/webDes/hansenByron/finalProject/Stratosphere.html"
+                        randomlinks[0] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/lowEndTheory.html"
+                        randomlinks[1] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/dieLit.html"
+                        randomlinks[2] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/graduation.html"
+                        randomlinks[3] = "http://cs.bcp.org/cozort/webdes/hansenByron/git/aotw/finalProject/Stratosphere.html"
 
                         function randomlink() {
                             window.location = randomlinks[Math.floor(Math.random() * randomlinks.length)]
                         }
                         //-->
                     </script>
-                   <a target="_blank" href="javascript:randomlink()" class="btn btn-outline-secondary my-2">Random Review</a>
+                    <a href="javascript:randomlink()" class="btn btn-outline-secondary my-2">Random Review</a>
 
 </body>
 </p>
 </div>
 </section>
 
-<!-- The reviews. Code modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery -->
-<body>
-<h1 style="text-align:center">Playboi Carti - Die Lit</h1>
-<div class="Rating">
-<div class="DieLit">
- <p class="serif"> 8.6 </p>
-</div>
-</div>
+<!-- the review. includes the rating and text below -->
 
-   
+<body>
+    <h1 style="text-align:center">Playboi Carti - Die Lit</h1>
+    <div class="Rating">
+        <div class="DieLit">
+            <p class="serif"> 8.6 </p>
+        </div>
+    </div>
+    <div class="article">
+        <!-- easter egg because i had to skip a line to get the right spacing lol -->
+        <h style="color:white;">easter egg!</h>
+        <!-- the review -->
+        <p>Three hours before Die Lit was released, Carti tweeted <a target="_blank"
+                href="https://twitter.com/playboicarti/status/994731849690869761" style=" color: inherit;"
+                class="link">this</a>. In classic Carti style, this single tweet was the only promotion for the album.
+            Die Lit peaked at #3 on the Billboard 200 and remained on the list for 47 consecutive weeks. Compared to his
+            debut self-titled mixtape, Die Lit is more refined, a manifestation of Carti's evolution and his realization
+            of his potential. An extremely fun and hyper listen. </p>
+    </div>
+
 </body>
 
 </html>
